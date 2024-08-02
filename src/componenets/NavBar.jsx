@@ -1,10 +1,13 @@
 import React from 'react'
+import imdblogo from '../assets/imdblogo.jpg'
+
 
 function NavBar() {
   return (
     <div className='flex border space-x-20 items-centre pl-3 py-4'>
-    <h3 className='text-blue-400'>Movies</h3>
-    <h3 className='text-blue-400'>WatchList</h3>
+      <img className='w-14 pt-2' src={imdblogo}></img>
+      <h3 className='text-blue-400 pt-2'>Movies</h3>
+      <h3 className='text-blue-400 pt-2'>WatchList</h3>
     </div>
   )
 }
