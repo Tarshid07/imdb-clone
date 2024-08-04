@@ -3,8 +3,8 @@ import React from 'react'
 function Watchlist() {
   return (
     <div>
-    My Watchlist
-    i am watchlist page 
+      My Watchlist
+      i am watchlist page
     </div>
   )
 }

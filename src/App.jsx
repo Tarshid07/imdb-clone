@@ -9,8 +9,9 @@ import Watchlist from "./componenets/Watchlist";
 export default function App() {
     return (
         <React.Fragment>
+         <BrowserRouter>
             <NavBar />
-            <BrowserRouter>
+           
                 <Routes>
                     <Route path="/" element={<React.Fragment><Banner /><Movies />
                     </React.Fragment>}>
