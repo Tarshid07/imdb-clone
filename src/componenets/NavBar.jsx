@@ -1,5 +1,7 @@
 import React from 'react'
 import imdblogo from '../assets/imdblogo.jpg'
+import { useNavigate } from 'react-router-dom';
+import Watchlist from './Watchlist';
 
 
 function NavBar() {

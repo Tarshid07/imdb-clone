@@ -3,6 +3,7 @@ import React from 'react'
 function Movies() {
   return (
     <div>
+    <div>
         <div className='text-2xl font-bold text-center pt-4 pb-4 mb-8'>
             Trending Movies
         </div>
@@ -14,6 +15,8 @@ function Movies() {
             style={{ backgroundImage: `url(https://i.ebayimg.com/images/g/-kYAAOSwOklimr4y/s-l400.jpg)`}}>
             </div>
         </div>
+        </div>
+       
     </div>
   )
 }
